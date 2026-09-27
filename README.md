@@ -116,7 +116,7 @@ Every entry links to a primary source—an official repository, product page, do
 | [500xCompressor](https://github.com/ZongqianLi/500xCompressor) | 🟢 Open source | 500xCompressor is a research implementation for encoding long natural-language prompts into compact textual representations and reconstructing task-relevant information with a language model. |
 | [KVPress](https://github.com/NVIDIA/kvpress) | 🟢 Open source | KVPress is NVIDIA's library for evaluating and applying KV-cache compression methods to Hugging Face models, including token eviction policies and long-context benchmarks. |
 | [KVCache-Factory](https://github.com/Zefan-Cai/KVCache-Factory) | 🟢 Open source | KVCache-Factory is a research codebase that collects KV-cache compression methods and evaluation workflows for reducing attention-cache memory during long-context generation. |
-| [Gobstopper](https://github.com/hraness/gobstopper) | 🟢 Open source | Gobstopper is a Rust CLI and read-only MCP server that previews and writes compacted copies of long Claude Code, Codex, and Devin sessions while preserving every original byte in a local vault. |
+| [Gobstopper](https://github.com/hraness/gobstopper) | 🟢 Open source | Gobstopper is a Rust command-line tool that shrinks long coding-agent sessions, either as a local proxy that replaces older turns with a summary once a request passes a token threshold, or by writing smaller copies of saved Claude Code and Codex sessions while keeping the originals in a local vault. |
 
 ## Long-Context Routing and Processing
 

@@ -399,7 +399,7 @@
       "availability": "open-source",
       "status": "active",
       "primary_url": "https://github.com/hraness/gobstopper",
-      "description": "Gobstopper is a Rust CLI and read-only MCP server that previews and writes compacted copies of long Claude Code, Codex, and Devin sessions while preserving every original byte in a local vault.",
+      "description": "Gobstopper is a Rust command-line tool that shrinks long coding-agent sessions, either as a local proxy that replaces older turns with a summary once a request passes a token threshold, or by writing smaller copies of saved Claude Code and Codex sessions while keeping the originals in a local vault.",
       "secondary_links": []
     },
     {
